@@ -36,3 +36,4 @@ lerna-debug.log*
 
 # ENVIROMENTS
 .env
+src/auth/auth.json
