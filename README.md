@@ -1,5 +1,5 @@
 ## Integration GoogleSheets and HubSpot
-Projeto desenvolvido com o intuito de extrair dados de uma planilha do Google Sheets e inserir esses mesmos dados na plataforma HubSpot!
+Projeto desenvolvido com o intuito de extrair dados de uma planilha do Google Sheets e inserir na plataforma HubSpot!
 
 ## Installation
 
@@ -8,7 +8,7 @@ Projeto desenvolvido com o intuito de extrair dados de uma planilha do Google Sh
 $ npm install
 ```
 
-## Configurações
+## Configuration
 ```bash
 # Variáveis de ambiente
 Configure sua HAPI_KEY no .env
