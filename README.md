@@ -12,6 +12,9 @@ $ npm install
 ```bash
 # Variáveis de ambiente
 Configure sua HAPI_KEY no .env
+
+# Auth GoogleSheets
+Dentro da pasta src/auth insira o arquivo json com as credenciais da sua planilha localizado no GoogleSheets.
 ```
 
 ## Running the app
