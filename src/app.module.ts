@@ -1,11 +1,9 @@
+import { HttpModule } from '@nestjs/axios';
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { IntegrationModule } from './integration/integration.module';
+import { IntegrationModule } from './modules/integration/integration.module';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
-  imports: [IntegrationModule],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [HttpModule, IntegrationModule, ConfigModule.forRoot()],
 })
 export class AppModule {}
