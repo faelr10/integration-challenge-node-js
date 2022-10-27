@@ -7,7 +7,7 @@ import {
 export class ExtractDataGoogleSheets implements IExtractDataGoogleSheets {
   async execute(): Promise<ResponseExtractDataGoogleSheets> {
     const auth = new google.auth.GoogleAuth({
-      keyFile: 'src/auth/auth.json',
+      keyFile: 'auth.json',
       scopes: 'https://www.googleapis.com/auth/spreadsheets',
     });
     const client = await auth.getClient();
